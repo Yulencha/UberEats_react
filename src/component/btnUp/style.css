@@ -1,0 +1,17 @@
+.button-scroll-up {
+  position: fixed;
+  right: 16px;
+  bottom: 24px;
+  box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 50%), 0px 5px 10px 0px rgb(0 0 0);
+  background-image: url(./btn-up.svg);
+  background-size: cover;
+  background-position: center;
+  width: 60px;
+  height: 60px;
+}
+.button-up:hover {
+  box-shadow: 0px 7px 10px 0px rgb(0 0 0 / 50%), 0px 5px 10px 0px rgb(0 0 0);
+}
+.button-up:active {
+  box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 50%), 0px 5px 10px 0px rgb(0 0 0);
+}

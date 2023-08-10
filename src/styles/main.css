@@ -1,0 +1,92 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.app {
+  position: relative;
+}
+
+.container {
+  height: 100%;
+  position: relative;
+}
+
+.basket {
+  margin-right: 17px;
+}
+
+.restaurants {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+.search {
+  border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+  margin: 56px 0;
+}
+.search__input {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  outline: none;
+}
+
+.title {
+  font-size: 22px;
+  line-height: 34px;
+  text-align: left;
+  color: #1d1d1d;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+/* restaurant  ----------- */
+
+.restaurant__nav {
+  height: 80px;
+  max-width: 605px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: auto;
+  white-space: nowrap;
+  column-gap: 10px;
+}
+.restaurant__nav-border {
+  height: 1px;
+  border: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.restaurant__nav-item {
+  /* margin-right: 40px; */
+  color: #626262;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+}
+.restaurant__nav-item:hover {
+  color: #327430;
+}
+
+.restaurant__nav-item.active {
+  color: #327430;
+  font-weight: 500;
+}
+
+/* Tablet  ----------- */
+@media (max-width: 1124px) {
+}
+
+/* Mobile  ----------- */
+@media (max-width: 768px) {
+}
