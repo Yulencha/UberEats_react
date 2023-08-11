@@ -470,7 +470,7 @@ const menuTest = [
 const restaurants = [
   {
     title: "Макдоналдс — Газетный",
-    type: "Бургеры",
+    type: "Бургеры • Американская",
     price: "₽₽",
     img: restaurant01,
     imgBig: restaurant01Big,
@@ -497,7 +497,7 @@ const restaurants = [
   },
   {
     title: "НЯ — NHA",
-    type: "Вьетнамская",
+    type: "Вьетнамская • Азиатская",
     price: "₽₽",
     img: restaurant04,
     imgBig: restaurant04Big,
@@ -506,7 +506,7 @@ const restaurants = [
   },
   {
     title: "Точка Дзы — Цветной",
-    type: "Вьетнамская",
+    type: "Вьетнамская • Азиатская",
     price: "₽₽",
     img: restaurant05,
     imgBig: restaurant05Big,
@@ -524,7 +524,7 @@ const restaurants = [
   },
   {
     title: "PIZZELOVE",
-    type: "Пицца",
+    type: "Пицца • Итальянская • Европейская",
     price: "₽₽",
     img: restaurant07,
     imgBig: restaurant07Big,
@@ -533,7 +533,7 @@ const restaurants = [
   },
   {
     title: "Zю кафе — Тверская",
-    type: "Японская",
+    type: "Японская • Азиатская",
     price: "₽₽",
     img: restaurant08,
     imgBig: restaurant08Big,
@@ -542,7 +542,7 @@ const restaurants = [
   },
   {
     title: "Bar BQ Cafe — Манежная",
-    type: "Европейская",
+    type: "Американская • Европейская",
     price: "₽₽₽",
     img: restaurant09,
     imgBig: restaurant09Big,
